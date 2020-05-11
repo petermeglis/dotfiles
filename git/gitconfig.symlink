@@ -1,0 +1,23 @@
+# Local/private config goes in the include
+[include]
+        path = ~/.gitconfig.local
+[alias]
+        count = !git shortlog -sn
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        excludesfile = ~/.gitignore
+[difftool]
+        prompt = false
+[help]
+        autocorrect = 1
+[credential]
+	      helper = osxkeychain
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
