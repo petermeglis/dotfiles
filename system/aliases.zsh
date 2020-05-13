@@ -4,6 +4,8 @@ alias ...='cd ../..'
 alias ls='ls -G'
 alias la='ls -ahlFG'
 
+alias fs='cd ~/file_system && la'
+
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias localip='ipconfig getifaddr en0'
 
