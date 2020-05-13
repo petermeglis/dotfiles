@@ -2,6 +2,9 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
+fpath=($DOTFILES/functions $fpath)
+autoload -U $DOTFILES/functions/*(:t)
+
 # don't expand aliases _before_ completion has finished
 #   like: git comm-[tab]
 setopt complete_aliases
