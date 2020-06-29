@@ -5,8 +5,9 @@ Put .dotfiles in your projects folder, then create a symlink `ln -s src dest` to
 
 After any changes to files, simply run `$ reload!`
 
-Init Oh My Zsh submodule using `--recursive` flag to git clone or with `git submodule update --init`
+Init Oh My Zsh submodule by adding `--recursive` flag to git clone or with `git submodule update --init`
 
+Init Powerlevel10k using `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k`
 
 Store local environment variables in ~/.localrc
 
