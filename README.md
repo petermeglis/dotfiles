@@ -5,6 +5,8 @@ Put .dotfiles in your projects folder, then create a symlink `ln -s src dest` to
 
 After any changes to files, simply run `$ reload!`
 
+Init Oh My Zsh submodule using `--recursive` flag to git clone or with `git submodule update --init`
+
 
 Store local environment variables in ~/.localrc
 
