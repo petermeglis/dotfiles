@@ -1,7 +1,7 @@
 # dotfiles
 Personal dotfiles
 
-Put .dotfiles in ~ and execute the bootstrap script `$ ./.dotfiles/boostrap`
+Put .dotfiles in your projects folder, then create a symlink `ln -s src dest` to ~ and execute the bootstrap script `$ ./.dotfiles/boostrap`
 
 After any changes to files, simply run `$ reload!`
 
