@@ -1,6 +1,9 @@
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES=$HOME/.dotfiles
 
+# add ~/fs/software to $PATH
+export PATH=$HOME/fs/software:$PATH
+
 # oh-my-zsh configuration
 export ZSH=$DOTFILES/.oh-my-zsh
 ZSH_THEME="powerlevel10k/powerlevel10k"

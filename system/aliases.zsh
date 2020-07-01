@@ -4,7 +4,7 @@ alias ...='cd ../..'
 alias ls='ls -lFG'
 alias la='ls -ahlFG'
 
-alias fs='cd ~/file_system && la'
+alias fs='cd ~/fs && la'
 alias dotfiles='cd ~/.dotfiles && la'
 
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
