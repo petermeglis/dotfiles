@@ -153,3 +153,5 @@ install_dotfiles
 
 # echo ''
 # echo '  All installed!'
+
+# brew install fzf

@@ -2,7 +2,9 @@
 [include]
         path = ~/.gitconfig.local
 [alias]
-        count = !git shortlog -sn
+        count           = !git shortlog -sn
+        recent-branches = "!git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print $3 }' | awk ' !x[$0]++' | head -n5 | nl"
+        recent          = "!sh -c 'branches=$(git recent-branches) && printf \"Recent Branches:\n$branches\n\" && echo \"Checkout a branch?\" && read branchn && branch=$(printf \"$branches\" | awk \"NR==$branchn\" | cut -f 2) && git checkout $branch'"
 [color]
         diff = auto
         status = auto
