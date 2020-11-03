@@ -154,4 +154,7 @@ install_dotfiles
 # echo ''
 # echo '  All installed!'
 
+
+# Other installations
 # brew install fzf
+# yarn global add @andymatuschak/note-link-janitor
