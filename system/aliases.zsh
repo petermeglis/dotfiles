@@ -1,7 +1,7 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 
-alias ls='ls -lFG'
+alias ls='ls -hlFG'
 alias la='ls -ahlFG'
 
 alias fs='cd ~/fs && la'
