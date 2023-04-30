@@ -27,3 +27,5 @@
 	user = petermeglis
 [push]
 	default = simple
+[ssh]
+	variant = ssh
