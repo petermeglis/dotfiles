@@ -78,3 +78,5 @@ source $(brew --prefix nvm)/nvm.sh
 
 # source secrets
 source $DOTFILES/secrets/.secrets
+
+source $DOTFILES/secrets/aws.zsh
