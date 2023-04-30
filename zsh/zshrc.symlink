@@ -75,3 +75,6 @@ export PATH="/Users/petermeglis/Downloads/skeema_1.5.1_mac_amd64:$PATH"
 # nvm for Node
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# source secrets
+source $DOTFILES/secrets/.secrets
