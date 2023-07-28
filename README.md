@@ -8,6 +8,7 @@ Personal dotfiles
 - Inside file-system root, init Powerlevel10k using `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k`
 - Run `$ ~/.dotfiles/macos/set-defaults.sh`
 - Install homebrew and run rest of commands in `script/bootstrap`
+- Add/update `secrets/.secrets`
 
 ## Usage
 - After any changes to files, simply run `$ reload!`
