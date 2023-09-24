@@ -155,7 +155,7 @@ install_dotfiles
 # echo '  All installed!'
 
 
-# Other installations
-# brew install fzf
-# brew install tldr
-
+# Other homebrew installations
+# brew install fzf # for fuzzy command line search
+# brew install tldr # for the tldr command
+# brew install awscli # for using the aws cli
