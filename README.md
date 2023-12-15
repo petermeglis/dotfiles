@@ -9,6 +9,10 @@ Personal dotfiles
 - Run `$ ~/.dotfiles/macos/set-defaults.sh`
 - Install homebrew and run rest of the homebrew commands in `script/bootstrap`
 - Add/update `secrets/.secrets`
+- Set up ruby
+    - `rbenv install <version>` Find latest version on https://www.ruby-lang.org/en/
+    - `rbenv global <version>` (To use as default)
+    - `gem install bundler` One-time setup on machine
 
 ## Usage
 - After any changes to files, simply run `$ reload!`
