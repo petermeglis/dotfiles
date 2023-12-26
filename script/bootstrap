@@ -160,3 +160,4 @@ install_dotfiles
 # brew install tldr # for the tldr command
 # brew install awscli # for using the aws cli
 # brew install rbenv # for installing ruby
+# brew install android-platform-tools # for android command line access
