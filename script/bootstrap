@@ -166,7 +166,7 @@ install_dotfiles
 # brew install android-platform-tools # for android command line access
 
 # Here's my `brew leaves` as of 1/9/24, all the top-level packages I installed.
-# awscli, fzf, node, rbenv, scrcpy, tldr
+# autossh, awscli, fzf, node, rbenv, scrcpy, tldr
 
 # And here's my `brew list` as of 1/9/24, everything.
 # ==> Formulae
