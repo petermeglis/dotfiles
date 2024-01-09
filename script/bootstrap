@@ -155,9 +155,43 @@ install_dotfiles
 # echo '  All installed!'
 
 
+############
+# Homebrew #
+############
 # Other homebrew installations
 # brew install fzf # for fuzzy command line search
 # brew install tldr # for the tldr command
 # brew install awscli # for using the aws cli
 # brew install rbenv # for installing ruby
 # brew install android-platform-tools # for android command line access
+
+# Here's my `brew leaves` as of 1/9/24, all the top-level packages I installed.
+# awscli, fzf, node, rbenv, scrcpy, tldr
+
+# And here's my `brew list` as of 1/9/24, everything.
+# ==> Formulae
+# aom			gnutls			libsodium		m4			ruby-build
+# aribb24			graphite2		libsoxr			mbedtls			scrcpy
+# autoconf		harfbuzz		libtasn1		mpdecimal		sdl2
+# awscli			highway			libtiff			mpg123			six
+# brotli			icu4c			libunibreak		nettle			snappy
+# c-ares			imath			libunistring		node			speex
+# ca-certificates		jpeg-turbo		libusb			opencore-amr		sqlite
+# cairo			jpeg-xl			libuv			openexr			srt
+# cffi			lame			libvidstab		openjpeg		svt-av1
+# cjson			leptonica		libvmaf			openssl@3		tesseract
+# dav1d			libarchive		libvorbis		opus			theora
+# docutils		libass			libvpx			p11-kit			tldr
+# ffmpeg			libb2			libx11			pango			unbound
+# flac			libbluray		libxau			pcre2			webp
+# fontconfig		libevent		libxcb			pixman			x264
+# freetype		libidn2			libxdmcp		pkg-config		x265
+# frei0r			libmicrohttpd		libxext			pycparser		xorgproto
+# fribidi			libnghttp2		libxrender		python-setuptools	xvid
+# fzf			libogg			libyaml			python@3.11		xz
+# gettext			libpng			libzip			rav1e			zeromq
+# giflib			librist			little-cms2		rbenv			zimg
+# glib			libsamplerate		lz4			readline		zstd
+# gmp			libsndfile		lzo			rubberband
+# ==> Casks
+# android-platform-tools
