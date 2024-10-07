@@ -164,6 +164,7 @@ install_dotfiles
 # brew install awscli # for using the aws cli
 # brew install rbenv # for installing ruby
 # brew install android-platform-tools # for android command line access
+# brew install db-browser-for-sqlite # for SQLite viewer
 
 # Here's my `brew leaves` as of 1/9/24, all the top-level packages I installed.
 # autossh, awscli, fzf, node, rbenv, scrcpy, tldr
