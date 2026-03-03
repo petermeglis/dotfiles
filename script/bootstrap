@@ -166,6 +166,7 @@ install_dotfiles
 # brew install android-platform-tools # for android command line access
 # brew install db-browser-for-sqlite # for SQLite viewer
 # brew install ncdu # for interactive disk usage
+# brew install rsync # for updated modern version
 
 # Here's my `brew leaves` as of 1/9/24, all the top-level packages I installed.
 # autossh, awscli, fzf, node, rbenv, scrcpy, tldr

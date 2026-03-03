@@ -79,4 +79,6 @@ eval "$(rbenv init -)"
 # source secrets
 source $DOTFILES/secrets/.secrets
 
+# new modern rsync
+export PATH="/opt/homebrew/bin:$PATH"
 
